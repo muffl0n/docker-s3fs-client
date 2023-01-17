@@ -10,7 +10,7 @@ SOURCE_COMMIT=${SOURCE_COMMIT:-$(git log --no-decorate|grep '^commit'|head -n 1|
 
 # github repo to get list of tags from
 BASEREPO=s3fs-fuse/s3fs-fuse
-MINVER=${MINVER:-1.78}
+MINVER=${MINVER:-1.91}
 VERSIONS=${VERSIONS:-} # When empty, will be all version starting from $MINVER
 
 if [ -z "$VERSIONS" ]; then
